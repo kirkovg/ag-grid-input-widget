@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AG grid input widget popup</title>
+    <style media="only screen">
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        html {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 0;
+            overflow: auto;
+        }
+
+        body {
+            padding: 1rem;
+            overflow: auto;
+        }
+
+        td, th {
+            text-align: left;
+            padding: 8px;
+        }
+
+        #monthSelection, #inputValue {
+            width: 100%;
+        }
+
+        .input-widget-popup {
+            width: 250px;
+            height: 150px;
+        }
+    </style>
+    <script src="https://unpkg.com/@ag-grid-community/all-modules@23.0.2/dist/ag-grid-community.min.js"></script>
+</head>
+
+<body>
+<div id="myGrid" style="height: 100%;" class="ag-theme-balham"></div>
+
+<script src="index.js"></script>
+</body>
+</html>
